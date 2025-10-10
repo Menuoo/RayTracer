@@ -1,0 +1,10 @@
+^C:\USERS\ARNOL\DESKTOP\C LANGS\CPP PROJECTS\RAYTRACER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/arnol/Desktop/C langs/cpp projects/RayTracer" "-BC:/Users/arnol/Desktop/C langs/cpp projects/RayTracer/build" --check-stamp-file "C:/Users/arnol/Desktop/C langs/cpp projects/RayTracer/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
