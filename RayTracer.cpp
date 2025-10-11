@@ -19,9 +19,10 @@ int main()
     // Camera setup
     camera cam;
 
-    cam.aspect_ratio = 16.0 / 9.0;
-    cam.image_width = 400;
-    cam.samples_per_pixel = 10;
+    cam.aspect_ratio      = 16.0 / 9.0;
+    cam.image_width       = 400;
+    cam.samples_per_pixel = 20;
+    cam.max_depth         = 10;
 
     cam.render(world);
 }
