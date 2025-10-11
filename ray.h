@@ -18,7 +18,7 @@ class ray {
 
 	private:
 		point3 orig;
-		vec3 dir;
+		vec3   dir;
 };
 
 
