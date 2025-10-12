@@ -22,7 +22,7 @@ set ( SOURCE_ONE_WEEKEND
   hittable.h
   hittable_list.h
   interval.h
-  #material.h
+  material.h
   ray.h
   rtweekend.h
   sphere.h

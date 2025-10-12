@@ -21,6 +21,9 @@
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\interval.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\ray.h">
       <Filter>Header Files</Filter>
     </ClInclude>

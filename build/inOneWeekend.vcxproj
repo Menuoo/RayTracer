@@ -319,6 +319,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\hittable.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\hittable_list.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\interval.h" />
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\material.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\ray.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\rtweekend.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\sphere.h" />
