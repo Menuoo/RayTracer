@@ -29,27 +29,6 @@ set ( SOURCE_ONE_WEEKEND
   vec3.h
 )
 
-set ( SOURCE_NEXT_WEEK
-  RayTracer.cpp
-  # aabb.h
-  # bvh.h
-  camera.h
-  color.h
-  # constant_medium.h
-  hittable.h
-  hittable_list.h
-  interval.h
-  material.h
-  # perlin.h
-  # quad.h
-  ray.h
-  # rtw_stb_image.h
-  rtweekend.h
-  sphere.h
-  # texture.h
-  vec3.h
-)
-
 # Specific compiler flags below. We're not going to add options for all possible compilers, but if
 # you're new to CMake (like we are), the following may be a helpful example if you're using a
 # different compiler or want to set different compiler options.
@@ -79,4 +58,3 @@ endif()
 
 # Executables
 add_executable(inOneWeekend      ${SOURCE_ONE_WEEKEND})
-add_executable(theNextWeek       ${SOURCE_NEXT_WEEK})
