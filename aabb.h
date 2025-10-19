@@ -14,7 +14,7 @@ class aabb {
 			// a and b are the extreme corners of the bounding box
 			x = (a[0] <= b[0]) ? interval(a[0], b[0]) : interval(b[0], a[0]);
 			y = (a[1] <= b[1]) ? interval(a[1], b[1]) : interval(b[1], a[1]);
-			x = (a[2] <= b[2]) ? interval(a[2], b[2]) : interval(b[2], a[2]);
+			z = (a[2] <= b[2]) ? interval(a[2], b[2]) : interval(b[2], a[2]);
 		}
 
 		aabb(const aabb& box0, const aabb& box1) {
@@ -56,7 +56,21 @@ class aabb {
 			return true;
 		}
 
+
+		int longest_axis() const {
+			// index of longest axis
+
+			if (x.size() > y.size())
+				return x.size() > z.size() ? 0 : 2;
+			else
+				return y.size() > z.size() ? 1 : 2;
+		}
+
+		static const aabb empty, universe;
 };
+
+const aabb aabb::empty = aabb(interval::empty, interval::empty, interval::empty);
+const aabb aabb::universe = aabb(interval::universe, interval::universe, interval::universe);
 
 
 #endif
