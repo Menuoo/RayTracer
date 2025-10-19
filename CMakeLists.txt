@@ -31,8 +31,8 @@ set ( SOURCE_ONE_WEEKEND
 
 set ( SOURCE_NEXT_WEEK
   RayTracer.cpp
-  # aabb.h
-  # bvh.h
+  aabb.h
+  bvh.h
   camera.h
   color.h
   # constant_medium.h

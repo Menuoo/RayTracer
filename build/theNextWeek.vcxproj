@@ -314,6 +314,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\RayTracer.cpp" />
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\aabb.h" />
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\bvh.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\camera.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\color.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\hittable.h" />
