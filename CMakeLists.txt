@@ -46,7 +46,7 @@ set ( SOURCE_NEXT_WEEK
   # rtw_stb_image.h
   rtweekend.h
   sphere.h
-  # texture.h
+  texture.h
   vec3.h
 )
 
@@ -78,5 +78,5 @@ elseif (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # Executables
-add_executable(inOneWeekend      ${SOURCE_ONE_WEEKEND})
+# add_executable(inOneWeekend      ${SOURCE_ONE_WEEKEND})
 add_executable(theNextWeek       ${SOURCE_NEXT_WEEK})

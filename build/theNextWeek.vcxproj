@@ -325,6 +325,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\ray.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\rtweekend.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\sphere.h" />
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\texture.h" />
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\vec3.h" />
   </ItemGroup>
   <ItemGroup>
