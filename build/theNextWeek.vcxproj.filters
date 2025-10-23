@@ -33,6 +33,12 @@
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\ray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\rtw_stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\arnol\Desktop\C langs\cpp projects\RayTracer\rtweekend.h">
       <Filter>Header Files</Filter>
     </ClInclude>

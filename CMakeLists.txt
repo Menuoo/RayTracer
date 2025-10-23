@@ -43,7 +43,8 @@ set ( SOURCE_NEXT_WEEK
   # perlin.h
   # quad.h
   ray.h
-  # rtw_stb_image.h
+  rtw_stb_image.h
+  stb_image.h
   rtweekend.h
   sphere.h
   texture.h

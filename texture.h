@@ -1,6 +1,8 @@
 #ifndef TEXTURE_H
 #define TEXTURE_H
 
+#include "rtw_stb_image.h"
+
 
 class texture {
 	public:
@@ -49,6 +51,31 @@ class checker_texture : public texture {
 		shared_ptr<texture> odd;
 };
 
+
+class image_texture : public texture {
+	public :
+		image_texture(const char* filename) : image(filename) {}
+
+		color value(double u, double v, const point3& p) const override {
+			// if no image texture data, return cyan
+			if (image.height() <= 0) return color(0, 1, 1);
+
+			// clamp input to 0:1
+			u = interval(0, 1).clamp(u);
+			v = 1.0 - interval(0, 1).clamp(v); // flip v to image coords
+
+			auto i = int(u * image.width());
+			auto j = int(v * image.height());
+			auto pixel = image.pixel_data(i, j);
+
+			auto color_scale = 1.0 / 255.0;
+			return color(color_scale * pixel[0], color_scale * pixel[1], color_scale * pixel[2]);
+		}
+
+
+	private:
+		rtw_image image;
+};
 
 
 
